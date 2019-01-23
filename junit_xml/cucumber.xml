@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.005129">
+<testcase classname="LinkedinTest Using DataTables" name="Login with datatables data" time="21.005129">
+<system-out><![CDATA[Given navigate to Home Page.................................................passed
+When enter Credentials to LogIn.............................................passed
+And click login btn.........................................................passed
+Then inbox page is shown....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,79 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login with datatables data",
+        "description": "",
+        "id": "linkedintest-using-datatables;login-with-datatables-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11771856598,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "navigate to Home Page",
+            "match": {
+              "location": "DataTablesTest.User_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 414894018,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter Credentials to LogIn",
+            "match": {
+              "location": "DataTablesTest.User_enters_and(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "rameshn3@gmail.com",
+                  "welcome123$"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2346567100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click login btn",
+            "match": {
+              "location": "DataTablesTest.click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6471811716,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "inbox page is shown",
+            "match": {
+              "location": "DataTablesTest.linkedin_homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LinkedinTest Using DataTables",
+    "description": "",
+    "id": "linkedintest-using-datatables",
+    "keyword": "Feature",
+    "uri": "D:/eclipseworkspaceAug2018/January3CucumberFrmwork2019/src/main/java/Feature/datatables.feature"
+  }
+]
